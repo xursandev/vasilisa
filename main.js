@@ -42,8 +42,8 @@ for (let i = 0; i < Links.length; i++) {
 }
 
 var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
   spaceBetween: 30,
-  centeredSlides: true,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

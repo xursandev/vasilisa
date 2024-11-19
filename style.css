@@ -566,13 +566,9 @@ body {
 }
 
 .swiper {
-  width: 1200px;
-  height: 450px;
+  width: 100%;
+  height: 500px;
   padding-bottom: 20px;
-}
-
-.mySwiper{
-    width: 30%;
 }
 
 .Swiper{
@@ -603,10 +599,6 @@ body {
 .footer-top{
     display: flex;
     justify-content: space-between;
-}
-
-.footer-bottom{
-
 }
 
 .footer-top-right{
@@ -747,6 +739,14 @@ body {
     width: 100px;
     font-weight: 300;
     margin-bottom: 10px;
+}
+
+.swiper-button-next{
+    color: #000
+}
+
+.swiper-button-prev{
+    color: #000
 }
 
 /* FOOTER - END */
