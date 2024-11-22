@@ -990,4 +990,15 @@ body {
     .header-menu.active{
         font-size: 16px;
     }
+
+    .banner4{
+        padding-left: 0;
+    }
+
+    .left__1{
+        padding-left: 0;
+    }
+    .left__2{
+        padding-left: 0;
+    }
 }
