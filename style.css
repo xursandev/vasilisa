@@ -975,7 +975,7 @@ body {
     }
     .header-icons{
         width: 40%;
-        margin-right: 0;
+        margin-right: 12px;
     }
 
     .icon-1{
