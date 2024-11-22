@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 html,
 body,
 .wrapper {
@@ -41,8 +42,6 @@ button {
 
 .header {
     position: relative;
-    -webkit-box-shadow: 1px 34px 37px 15px rgba(34, 60, 80, 0.29);
-    -moz-box-shadow: 1px 34px 37px 15px rgba(34, 60, 80, 0.29);
     box-shadow: 1px 34px 37px 15px rgba(34, 60, 80, 0.29);
     padding-bottom: 1px;
 }
@@ -317,7 +316,6 @@ button {
 
 .banner-row {
     background-image: url(./images/b.jpg);
-    height: 100vh;
     background-size: cover;
 }
 
@@ -334,7 +332,6 @@ button {
 }
 
 .text-2 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-left: 100px;
     max-width: 380px;
     text-transform: uppercase;
@@ -347,6 +344,7 @@ button {
     font-size: 40px;
     line-height: 46px;
     margin-top: 5px;
+    padding-bottom: 400px;
 }
 
 /* BANNER - END */
@@ -416,7 +414,6 @@ button {
     text-align: right;
     font-size: 14px;
     line-height: 16px;
-    font-family: Circe, Arial, sans-serif;
     color: #2B2B2B;
     font-weight: normal;
 }
@@ -527,14 +524,12 @@ button {
     padding-bottom: 40px;
 }
 
-.top__left {
+.top__left2 {
     line-height: 26px;
-    font-family: Circe, Arial, sans-serif;
     color: #2B2B2B;
-    font-weight: normal;
-    font-size: 38px;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 32px;
-    margin-left: 20px;
 }
 
 .top__right {
@@ -542,7 +537,6 @@ button {
     text-align: right;
     font-size: 14px;
     line-height: 16px;
-    font-family: Circe, Arial, sans-serif;
     color: #2B2B2B;
     font-weight: normal;
 }
@@ -558,7 +552,6 @@ body {
 }
 
 body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -706,6 +699,15 @@ body {
     margin-bottom: 10px;
 }
 
+.bottom-left_nav1{
+    font-size: 16px;
+    width: 100px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
 .nav-2:hover{
     border-bottom: 1px solid black;
 }
@@ -733,20 +735,257 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .nav-3{
     font-size: 12px;
     width: 100px;
     font-weight: 300;
     margin-bottom: 10px;
 }
-
 .swiper-button-next{
     color: #000
 }
-
 .swiper-button-prev{
     color: #000
 }
-
 /* FOOTER - END */
+
+@media screen and (max-width:1120px) {
+    .header__nav{
+        display: none;
+    }
+
+    .boxx-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .boxx-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box-1{
+        width: 49%;
+        height: 500px;
+        margin-bottom: 14px;
+    }
+    .box-2{
+        width: 49%;
+        height: 500px;
+        margin-bottom: 14px;
+    }
+    .box-3{
+        display: none;
+    }
+    .box-4{
+        width: 49%;
+        height: 500px;
+        margin-bottom: 14px;
+    }
+    .box-5{
+        width: 49%;
+        height: 500px;
+        margin-bottom: 14px;
+    }
+    .box-6{
+        display: none;
+    }
+    .top__left{
+        line-height: 40px;
+    }
+    .swiper-button-next{
+        display: none;
+    }
+    .swiper-button-prev{
+        display: none;
+    }
+    .swiper{
+        width: 700px;
+        height: 100%;
+    }
+    .banner__top{
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .swiper{
+        padding: 0 20px;
+    }
+    .footer-top-right{
+        display: none;
+    }
+    .footer-top-left{
+        width: 100%;
+        padding: 20px 100px;
+        text-align: left;
+    }
+    .left-image:not(:last-child){
+        margin-right: 20px;
+    }
+    .bottom-left__logo{
+        display: none;
+    }
+    .bottom-left_nav2{
+        display: none;
+    }
+    .nav-1{
+       width: 200px;
+    }
+    .bottom-left_nav{
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+    .bottom-left_nav3{
+        margin-left: 20px;
+    }
+    .bottom-left{
+        align-items: center;
+    }
+    .bottom-right{
+        width: 100%;
+        gap: 0;
+    }
+    .footer-bottom{
+        padding: 40px 40px;
+    }
+    .header-menu{
+        width: 40%;
+    }
+}
+@media screen and (max-width:750px) {
+    .header-menu{
+        width: 50%;
+    }
+    .banner__top{
+        padding: 0 40px;
+    }
+
+
+    .bottom-left-nav-3{
+        display: none;
+    }
+
+    .banner3{
+        padding-left: 0;
+    }
+
+    .bottom-left_nav{
+        margin-right: 100px;
+    }
+    .bottom-right{
+        margin-left: 140px;
+    }
+
+    .boxx-1{
+        padding: 0 20px;
+    }
+    .boxx-2{
+        padding: 0 20px;
+    }
+
+    .top__right{
+        display: none;
+    }
+
+    .top-title{
+        font-size: 36px;
+    }
+    .bottom-left_nav3{
+        display: none;
+    }
+
+    .bottom-left_nav1{
+        display: none;
+    }
+    .footer-top-left{
+        padding: 20px;
+    }
+    .box-1{
+        width: 100%;
+        height: 500px;
+    }
+    .box-2{
+        width: 100%;
+        height: 500px;
+    }
+    .box-3{
+        display: block;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .box-4{
+        width: 100%;
+        height: 500px;
+    }
+    .box-5{
+        width: 100%;
+        height: 500px;
+    }
+    .box-6{
+        display: block;
+        height: 500px;
+        width: 100%;
+    }
+
+    .footer-bottom{
+        padding: 20px 20px;
+    }
+
+    .nav-2{
+        width: 100%;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .text-2{
+        display: none;
+    }
+    .text-1{
+        display: none;
+    }
+
+    .banner-row{
+        width: 100%;
+        height: 300px;
+    }
+    .banner__top{
+        padding-left: 0;
+    }
+    .bottom-left_nav{
+        width: 100%;
+        display: flex;
+    }
+    .top__left{
+        width: 300px;
+        font-size: 30px;
+        padding-left: 0;
+    }
+
+    .banner__top{
+        padding-left: 20px;
+    }
+    .left-image{
+        width: 60px;
+    }
+    .left__1{
+        font-size: 30px;
+    }
+
+    .banner2__right{
+        display: none;
+    }
+    .header-icons{
+        width: 40%;
+        margin-right: 0;
+    }
+
+    .icon-1{
+        width: 28px;
+    }
+    .header__menu-button{
+        width: 28px;
+    }
+
+    .header-menu.active{
+        font-size: 16px;
+    }
+}
