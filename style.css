@@ -857,7 +857,9 @@ body {
     .banner__top{
         padding: 0 40px;
     }
-
+    .header-row{
+        padding: 20px 4px;
+    }
 
     .bottom-left-nav-3{
         display: none;
